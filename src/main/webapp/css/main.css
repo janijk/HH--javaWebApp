@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+div.container {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 60%;
+	padding: 50px;
+}
+/* div.header { */
+/* 	border: 1px solid black; */
+/* } */
+/*dark background*/
+body.bg {
+	background-color:#212121;
+	color: white;
+}
+div.options {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+/*------- 	FORMS	 -------*/
+div.form {	
+	flex-direction: column;
+	width:200px;
+ 	border-radius: 6px; 	
+}
+div.formgroup {
+	margin-bottom:5px;
+}
+input.formField {
+	background-color:transparent;
+	color:white;
+	padding: 0.2rem 0.5rem;
+	height:20px;
+	width:220px;
+	border: 1px solid white;
+	border-radius: 0.25rem;
+	margin: 1px 1px;	
+}
+/*------- 	SEARCHBARS	 -------*/
+input.searchBar {
+	background-color:transparent;
+	color:white;
+	height:20px;
+	width:220px;
+	padding: 0.2rem 0.5rem;
+	border: 1px solid #0d6efd;
+	border-radius: 0.25rem;
+	margin: 1px 1px;
+}
+/*------- 	TABLES		 -------*/
+div.tableDiv {	
+	flex-direction: column;
+	width:80%;
+}
+table {		
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 6px;
+}
+table tr:nth-child(even){
+	background-color: #2c3034;
+	padding-left:5px;
+}
+table tr:hover {
+	background-color: #323539;
+}
+table th {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:5px;
+	text-align: left;
+	font-size: 20px;
+	background-color: #181818;
+	color: white;
+	border-bottom: 1px solid white;
+}
+table td {
+	padding-left:5px;
+	word-wrap:break-word;
+}
+tr:first-child th:first-child {
+	border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+	border-top-right-radius: 6px;
+}
+tr:last-child td:first-child {
+	border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+	border-bottom-right-radius: 6px;
+}
+/*------- 	BUTTONS		 -------*/
+.button {
+	background-color: transparent;
+  	border: 1px solid transparent;
+ 	color: white;
+ 	padding: 0.2rem 0.5rem;
+ 	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 1rem;
+  	font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+ 	margin: 1px 1px;
+ 	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+/*red button*/
+.button1red {
+	color:#f44336; 
+	border: 1px solid #f44336;
+}
+.button1red:hover {
+	background-color: #f44336;
+	color: white;
+}
+/*blue button*/
+.button2blue {
+	color: #0d6efd; 
+ 	border: 1px solid #0d6efd;
+}
+.button2blue:hover {
+	background-color: #0d6efd;
+	color: white;
+}
+/*grey button*/
+.button3grey {
+	color: #6c757d;
+    border-color: #6c757d;
+}
+.button3grey:hover {
+	background-color: #6c757d;
+	color: white;
+}
+/*green button*/
+.button4green {
+	color: #198754;
+    border-color: #198754;
+}
+.button4green:hover {
+	background-color: #198754;
+	color: white;
+}
